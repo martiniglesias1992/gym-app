@@ -47,7 +47,7 @@ let state = loadState();
 
 // Things that only matter while the app is open.
 const ui = { sheet: null, openSession: null, pickFilter: null };
-const rest = { endsAt: 0, overAt: 0 };
+const rest = { startedAt: 0, endsAt: 0, overAt: 0 };
 
 function loadState() {
   const fallback = { sessions: [], active: null, prefs: { tab: 'today', sort: 'day', filter: null }, lastBackup: null };
@@ -277,7 +277,8 @@ function beep() {
 }
 
 function startRest(seconds = REST_SECONDS) {
-  rest.endsAt = Date.now() + seconds * 1000;
+  rest.startedAt = Date.now();
+  rest.endsAt = rest.startedAt + seconds * 1000;
   rest.overAt = 0;
   tick();
 }
@@ -300,14 +301,18 @@ function tick() {
     } else {
       el.hidden = false;
       el.classList.toggle('over', left <= 0);
+      // The bar shrinks as the rest runs out (+15 makes it longer again).
+      const share = Math.min(100, (left * 100000) / (rest.endsAt - rest.startedAt));
       el.innerHTML = left > 0
-        ? `<span class="small">Descanso</span><span class="time">${fmtClock(left)}</span>
-           <button data-act="rest-add">+15</button><button data-act="rest-stop" aria-label="Cerrar">✕</button>`
-        : `<span class="time">¡Vamos!</span><button data-act="rest-stop" aria-label="Cerrar">✕</button>`;
+        ? `<span class="label"><span class="eyebrow">Descanso</span><span class="time">${fmtClock(left)}</span></span>
+           <button data-act="rest-add">+15</button><button data-act="rest-stop" aria-label="Cerrar">✕</button>
+           <span class="track"><span style="width:${share.toFixed(1)}%"></span></span>`
+        : `<span class="label"><span class="eyebrow">Descanso terminado</span><span class="time">¡Vamos!</span></span>
+           <button data-act="rest-stop" aria-label="Cerrar">✕</button>`;
     }
   }
   const clock = $('#elapsed');
-  if (clock && state.active) clock.textContent = `${minutesBetween(state.active.startedAt, new Date())} min`;
+  if (clock && state.active) clock.textContent = minutesBetween(state.active.startedAt, new Date());
 }
 setInterval(tick, 250);
 
@@ -321,7 +326,13 @@ function render() {
     else b.removeAttribute('aria-current');
   });
   const titles = { today: state.active ? state.active.title : 'Entrenar', library: 'Ejercicios', history: 'Historial' };
+  const eyebrows = {
+    today: state.active ? 'Entreno en curso' : new Date().toLocaleDateString('es', { weekday: 'long', day: 'numeric', month: 'long' }),
+    library: `${ROUTINE.exercises.length} ejercicios`,
+    history: state.sessions.length === 1 ? '1 entreno' : `${state.sessions.length} entrenos`,
+  };
   $('#title').textContent = titles[tab];
+  $('#eyebrow').textContent = eyebrows[tab];
   $('#topaction').innerHTML = tab === 'today' && state.active
     ? '<button class="btn primary small" data-act="finish">Terminar</button>'
     : '';
@@ -333,34 +344,45 @@ function render() {
 // ---------- Entrenar: no session yet ----------
 function viewStart() {
   const days = Object.entries(ROUTINE.days).map(([day, note]) => `
-    <button class="btn" data-act="start-day" data-day="${day}">Día ${day}<small>${esc(note)}</small></button>`).join('');
+    <button class="btn" data-act="start-day" data-day="${day}"><span class="eyebrow">Día</span><b>${day.padStart(2, '0')}</b><small>${esc(note)}</small></button>`).join('');
+  const total = FULL_BODY.reduce((n, [, c]) => n + c, 0);
+  const slots = FULL_BODY.map(([slot, c]) => `<li>${esc(SLOT_LABELS[slot].split(' (')[0])}${c > 1 ? ` ×${c}` : ''}</li>`).join('');
   const last = state.sessions[0];
   return `
     <div class="card hero-card">
-      <h2 style="margin:0">Full body de hoy</h2>
-      <p>${FULL_BODY.reduce((n, [, c]) => n + c, 0)} ejercicios: cardio, piernas, empuje, tracción, hombros, core y un final.
-      Elige primero los que hace más tiempo que no haces.</p>
+      <span class="big" aria-hidden="true">${String(total).padStart(2, '0')}</span>
+      <span class="eyebrow">${total} ejercicios</span>
+      <h2>Full body de hoy</h2>
+      <ul class="slots">${slots}</ul>
+      <p>Primero van los que hace más tiempo que no haces.</p>
       <button class="btn block" data-act="start-full">Crear full body</button>
     </div>
     <h2>Días del profe</h2>
     <div class="daybtns">${days}</div>
     <h2>A mi manera</h2>
-    <button class="btn block" data-act="start-empty">Empezar vacío y elegir ejercicios</button>
-    ${last ? `<p class="muted small" style="margin-top:22px">Último entreno: ${esc(last.title)}, ${fmtDay(last.startedAt)}.</p>` : ''}`;
+    <button class="btn dashed block" data-act="start-empty">+ Empezar vacío y elegir ejercicios</button>
+    ${last ? `<div class="card lastcard"><div class="grow"><span class="eyebrow">Último entreno</span><br>
+      <b>${esc(last.title)}</b> <span class="muted">· ${fmtDay(last.startedAt)}</span></div></div>` : ''}`;
 }
 
 // ---------- Entrenar: active session ----------
 function viewSession() {
   const s = state.active;
   const cards = s.items.map((item, i) => exerciseCard(item, i, s.items)).join('');
+  const allSets = s.items.flatMap((it) => it.sets);
+  const setsDone = allSets.filter((x) => x.done).length;
+  const exDone = s.items.filter((it) => it.sets.length && it.sets.every((x) => x.done)).length;
   return `
-    <div class="session-head">
-      <span class="muted small">Empezaste a las ${fmtTime(s.startedAt)} · <span id="elapsed" class="num">${minutesBetween(s.startedAt, new Date())} min</span></span>
-      <span class="muted small">Descanso ${ROUTINE.general.rest} · RIR ${ROUTINE.general.rir}</span>
+    <div class="card stats">
+      <div><span class="eyebrow">Tiempo</span><b><span id="elapsed">${minutesBetween(s.startedAt, new Date())}</span><small> min</small></b></div>
+      <div><span class="eyebrow">Series</span><b>${setsDone}<small>/${allSets.length}</small></b></div>
+      <div><span class="eyebrow">Ejercicios</span><b>${exDone}<small>/${s.items.length}</small></b></div>
+      <div class="bar"><span style="width:${allSets.length ? (setsDone * 100) / allSets.length : 0}%"></span></div>
     </div>
+    <div class="session-meta"><span>Desde las ${fmtTime(s.startedAt)}</span><span>Descanso ${ROUTINE.general.rest} · RIR ${ROUTINE.general.rir}</span></div>
     ${cards || '<p class="empty">Todavía no hay ejercicios. Añade el primero.</p>'}
     <div class="stack" style="margin-top:16px">
-      <button class="btn block" data-act="pick">+ Añadir ejercicio</button>
+      <button class="btn dashed block" data-act="pick">+ Añadir ejercicio</button>
       <button class="btn primary block" data-act="finish">Terminar y guardar</button>
       <button class="btn ghost danger block" data-act="discard">Descartar entreno</button>
     </div>`;
@@ -388,7 +410,7 @@ function exerciseCard(item, i, items) {
     const inputs = cols.map(([key, label, mode]) => `
       <td><input type="text" inputmode="${mode}" autocomplete="off" aria-label="${label} serie ${s + 1}"
         data-i="${i}" data-s="${s}" data-field="${key}" value="${esc(set[key])}" placeholder="${esc(placeholder(key))}"></td>`).join('');
-    return `<tr class="${set.done ? 'done' : ''}"><td>${s + 1}</td>${inputs}
+    return `<tr class="${set.done ? 'done' : ''}"><td><span class="setno">${s + 1}</span></td>${inputs}
       <td><button class="check" data-act="toggle-set" data-i="${i}" data-s="${s}" aria-label="Serie ${s + 1} hecha">${ICONS.check}</button></td></tr>`;
   }).join('');
 
@@ -398,7 +420,7 @@ function exerciseCard(item, i, items) {
       <div class="exnum">${complete ? '✓' : i + 1}</div>
       <div class="grow">
         <button class="exname" data-act="detail" data-id="${ex.id}">${esc(ex.name)}</button>
-        <div class="rx">${esc(prescription(ex))} · ${esc(SLOT_LABELS[ex.slot])}</div>
+        <div class="rx"><b>${esc(prescription(ex))}</b> · ${esc(SLOT_LABELS[ex.slot])}</div>
         <div class="meta">
           ${ex.format ? `<button class="tag fmt" data-act="format" data-id="${ex.format}">${FORMAT_LABELS[ex.format]}</button>` : ''}
           ${partners.length ? `<span class="tag pair">Superserie con ${esc(partners.join(', '))}</span>` : ''}
@@ -508,10 +530,12 @@ function viewHistory() {
           <span class="grow"></span>
           <button class="btn small ghost danger" data-act="delete-session" data-id="${s.id}">Borrar</button>
         </div></div>` : '';
+    const day = new Date(s.startedAt);
     return `<div class="card sess ${open ? 'open' : ''}">
       <button data-act="toggle-session" data-id="${s.id}">
-        <span><span class="when">${fmtDay(s.startedAt)}</span> · ${esc(s.title)}<br>
-        <span class="stats num">${s.items.length} ejercicios · ${sets} series${volume ? ` · ${volume.toLocaleString('es')} kg` : ''}${s.finishedAt ? ` · ${minutesBetween(s.startedAt, s.finishedAt)} min` : ''}</span></span>
+        <span class="datebox" aria-label="${fmtDay(s.startedAt)}"><b>${day.getDate()}</b><small>${day.toLocaleDateString('es', { month: 'short' }).replace('.', '')}</small></span>
+        <span class="grow"><span class="what">${esc(s.title)}</span><br>
+        <span class="stats-line num">${day.toLocaleDateString('es', { weekday: 'long' })} · ${s.items.length} ejercicios · ${sets} series${volume ? ` · ${volume.toLocaleString('es')}&nbsp;kg` : ''}${s.finishedAt ? ` · ${minutesBetween(s.startedAt, s.finishedAt)}&nbsp;min` : ''}</span></span>
         <span class="chev">›</span>
       </button>${details}</div>`;
   }).join('');
@@ -579,6 +603,7 @@ function progressChart(ex, entries) {
   const unit = { weight: 'kg', distance: 'm', time: 's' }[ex.log];
   const path = points.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(' ');
   return `<div class="prog"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Progreso de ${esc(ex.name)}">
+      <path class="area" d="${path} L${x(points.length - 1).toFixed(1)},${H} L${x(0).toFixed(1)},${H} Z"/>
       <path class="line" d="${path}"/>
       ${points.map((p, i) => `<circle class="dot" cx="${x(i).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="3.5"/>`).join('')}
       <text class="axis" x="${pad}" y="11">${fmtShort(points[0].date)}</text>
