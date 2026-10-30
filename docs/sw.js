@@ -3,7 +3,7 @@
 // right away, and refresh that copy in the background when online.
 // Changes you publish show up the second time you open the app.
 
-const CACHE = 'rutina-v1';
+const CACHE = 'rutina-v2';
 const SHELL = [
   './',
   'index.html',
@@ -13,6 +13,11 @@ const SHELL = [
   'data/exercises.json',
   'icons/apple-touch-icon.png',
   'icons/icon-192.png',
+  'fonts/barlow-400.woff2',
+  'fonts/barlow-600.woff2',
+  'fonts/barlow-700.woff2',
+  'fonts/barlow-condensed-600.woff2',
+  'fonts/barlow-condensed-800.woff2',
 ];
 
 self.addEventListener('install', (event) => {

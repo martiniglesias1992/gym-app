@@ -14,9 +14,9 @@ from pathlib import Path
 
 ICON_DIR = Path(__file__).resolve().parent.parent / "docs" / "icons"
 
-BACKGROUND = (11, 102, 112)   # teal, same as the app accent colour
-BAR = (231, 239, 237)         # light grey
-PLATE = (242, 194, 48)        # yellow
+BACKGROUND = (13, 14, 16)     # near-black, same as the app's dark background
+BAR = (243, 242, 237)         # off-white
+PLATE = (212, 255, 61)        # volt, the app accent colour
 
 
 def dumbbell_color(x, y):

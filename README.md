@@ -26,6 +26,7 @@ gym-app/
 │   ├── manifest.webmanifest  name and icon for "Add to Home Screen"
 │   ├── data/exercises.json   the routine: exercises, sets, reps, how-to, videos
 │   ├── img/                  exercise photos (Free Exercise DB, public domain)
+│   ├── fonts/                Barlow + Barlow Condensed (Google Fonts, OFL licence)
 │   └── icons/                app icons (made by tools/make_icons.py)
 └── tools/
     ├── extract_routine.py    builds data/exercises.json + img/ from the guide
