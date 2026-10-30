@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Original sources: kept on this computer only, not published.
+# (Only tools/extract_routine.py needs them, and it has already been run.)
+RUTINA- Martin .xlsx
+Rutina de Martin.html
+
+# Claude Code local settings
+.claude/

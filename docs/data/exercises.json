@@ -1,0 +1,1658 @@
+{
+  "general": {
+    "rest": "90″",
+    "rir": 2,
+    "legend": [
+      [
+        "Descanso 90″",
+        "Entre series descansa un minuto y medio."
+      ],
+      [
+        "RIR 2",
+        "Termina cada serie con 2 repeticiones «en reserva». Podrías hacer 2 más, pero paras."
+      ],
+      [
+        "12-10-8",
+        "Pirámide: 12 reps en la 1ª serie, 10 en la 2ª y 8 en la 3ª, subiendo el peso."
+      ],
+      [
+        "Superserie",
+        "Ejercicios con la misma letra se hacen seguidos, alternando, antes de descansar."
+      ]
+    ]
+  },
+  "days": {
+    "1": "Piernas, hombros y empuje · trineo y carga",
+    "2": "Espalda, pecho y circuito EMOM",
+    "3": "Core, espalda y piernas en máquinas"
+  },
+  "formats": [
+    {
+      "id": "emom",
+      "name": "EMOM 12 minutos",
+      "equipment": [
+        "Reloj o cronómetro del gimnasio"
+      ],
+      "muscles": "Condicionamiento general: piernas, cadera, hombros y resistencia.",
+      "steps": [
+        "EMOM significa «cada minuto, en el minuto» (Every Minute On the Minute).",
+        "Al empezar cada minuto, haces las repeticiones del ejercicio que toca (Wall balls, Swing o SDLHP).",
+        "El tiempo que sobra del minuto es tu descanso. Al llegar el siguiente minuto, empieza el siguiente ejercicio.",
+        "En 12 minutos hay 3 ejercicios × 4 rondas (por eso Wall balls figura con 4 series)."
+      ],
+      "tips": [
+        "Elige un peso con el que termines las repeticiones en 30-40 segundos.",
+        "Si no llegas a terminar dentro del minuto, baja el peso."
+      ],
+      "media": [
+        {
+          "svg": "<svg class=\"fig tl\" viewBox=\"0 0 300 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b1\"/><text x=\"11.5\" y=\"31\" class=\"bt\">WB</text><rect x=\"25\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b2\"/><text x=\"36.5\" y=\"31\" class=\"bt\">SW</text><rect x=\"50\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b3\"/><text x=\"61.5\" y=\"31\" class=\"bt\">SD</text><rect x=\"75\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b1\"/><text x=\"86.5\" y=\"31\" class=\"bt\">WB</text><rect x=\"100\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b2\"/><text x=\"111.5\" y=\"31\" class=\"bt\">SW</text><rect x=\"125\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b3\"/><text x=\"136.5\" y=\"31\" class=\"bt\">SD</text><rect x=\"150\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b1\"/><text x=\"161.5\" y=\"31\" class=\"bt\">WB</text><rect x=\"175\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b2\"/><text x=\"186.5\" y=\"31\" class=\"bt\">SW</text><rect x=\"200\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b3\"/><text x=\"211.5\" y=\"31\" class=\"bt\">SD</text><rect x=\"225\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b1\"/><text x=\"236.5\" y=\"31\" class=\"bt\">WB</text><rect x=\"250\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b2\"/><text x=\"261.5\" y=\"31\" class=\"bt\">SW</text><rect x=\"275\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"b3\"/><text x=\"286.5\" y=\"31\" class=\"bt\">SD</text></svg>",
+          "caption": "12 minutos: cada minuto un ejercicio (WB = Wall balls · SW = Swing · SD = SDLHP)"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=onYSt45uCiQ",
+          "title": "¿Qué es y en qué consiste un entrenamiento EMOM?"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=KUEEfe3oHBc",
+          "title": "Cómo hacer un EMOM"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=que%20es%20un%20entrenamiento%20emom"
+    },
+    {
+      "id": "tabata",
+      "name": "Tabata",
+      "equipment": [
+        "Cronómetro de intervalos"
+      ],
+      "muscles": "Es un formato de entrenamiento, no un ejercicio. Mejora la resistencia y el core.",
+      "steps": [
+        "Un Tabata clásico es 20″ de trabajo y 10″ de descanso. Tu planilla indica 40″ de trabajo y 20″ de descanso.",
+        "Ese formato se aplica a Plancha, Plancha lateral, Hollow y Superman (los cuatro ejercicios siguientes).",
+        "Haz cada ejercicio durante 40 segundos y descansa 20 antes del siguiente.",
+        "Cuando termines los cuatro, descansa y repite hasta completar las series indicadas."
+      ],
+      "tips": [
+        "Si la planilla se refiere a otro orden o tiempo, confirma con el profe.",
+        "Usa un temporizador de intervalos en el móvil."
+      ],
+      "media": [
+        {
+          "svg": "<svg class=\"fig tl\" viewBox=\"0 0 300 60\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"14\" width=\"48\" height=\"26\" rx=\"3\" class=\"b1\"/><text x=\"24.0\" y=\"31\" class=\"bt\">40″</text><rect x=\"50\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"rest\"/><text x=\"61.5\" y=\"31\" class=\"bt\">20″</text><rect x=\"75\" y=\"14\" width=\"48\" height=\"26\" rx=\"3\" class=\"b1\"/><text x=\"99.0\" y=\"31\" class=\"bt\">40″</text><rect x=\"125\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"rest\"/><text x=\"136.5\" y=\"31\" class=\"bt\">20″</text><rect x=\"150\" y=\"14\" width=\"48\" height=\"26\" rx=\"3\" class=\"b1\"/><text x=\"174.0\" y=\"31\" class=\"bt\">40″</text><rect x=\"200\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"rest\"/><text x=\"211.5\" y=\"31\" class=\"bt\">20″</text><rect x=\"225\" y=\"14\" width=\"48\" height=\"26\" rx=\"3\" class=\"b1\"/><text x=\"249.0\" y=\"31\" class=\"bt\">40″</text><rect x=\"275\" y=\"14\" width=\"23\" height=\"26\" rx=\"3\" class=\"rest\"/><text x=\"286.5\" y=\"31\" class=\"bt\">20″</text></svg>",
+          "caption": "Por ejercicio: 40″ de trabajo y 20″ de descanso"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=y91oHcFiN3g",
+          "title": "¿Cuánto dura un Tabata?"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OYwjC9peb1A",
+          "title": "Método Tabata abdominal"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=que%20es%20tabata%20entrenamiento"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ski",
+      "name": "SkiErg (SKI)",
+      "equipment": [
+        "SkiErg (máquina de esquí con dos cuerdas)"
+      ],
+      "muscles": "Dorsales, tríceps, core, glúteos y piernas. Es un ejercicio de cuerpo entero.",
+      "steps": [
+        "Colócate de pie frente a la máquina, pies al ancho de caderas, y sujeta las dos asas con los brazos estirados por encima de la cabeza.",
+        "Tira hacia abajo con los brazos y, al mismo tiempo, dobla caderas y rodillas, como si te sentaras hacia atrás.",
+        "Termina con las manos junto a los muslos y el tronco inclinado hacia delante, con la espalda recta.",
+        "Estira piernas y caderas, y deja que los brazos suban de nuevo. Repite sin parar con ritmo constante."
+      ],
+      "tips": [
+        "La fuerza sale de la cadera y las piernas, no solo de los brazos.",
+        "Mantén los codos casi estirados al tirar.",
+        "Ajusta la resistencia (damper) a un nivel medio. Más alto no es más rápido.",
+        "Los 250 m se miran en la pantalla. Usa un ritmo que puedas repetir en las 3 series."
+      ],
+      "media": [
+        {
+          "svg": "<svg class=\"fig\" viewBox=\"0 0 300 170\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"156\" x2=\"294\" y2=\"156\" class=\"floor\"/><line x1=\"262\" y1=\"156\" x2=\"262\" y2=\"22\" class=\"mach\"/><rect x=\"250\" y=\"12\" width=\"24\" height=\"12\" class=\"mach2\"/><circle cx=\"120\" cy=\"30\" r=\"9\" class=\"hd\"/><line x1=\"120\" y1=\"46\" x2=\"118\" y2=\"96\" class=\"lm\"/><line x1=\"118\" y1=\"96\" x2=\"122\" y2=\"126\" class=\"lm\"/><line x1=\"122\" y1=\"126\" x2=\"118\" y2=\"154\" class=\"lm\"/><line x1=\"120\" y1=\"46\" x2=\"145\" y2=\"28\" class=\"lm\"/><line x1=\"145\" y1=\"28\" x2=\"168\" y2=\"22\" class=\"lm\"/><line x1=\"262\" y1=\"20\" x2=\"168\" y2=\"22\" class=\"cord\"/></svg>",
+          "caption": "Inicio: brazos arriba, de pie (esquema)"
+        },
+        {
+          "svg": "<svg class=\"fig\" viewBox=\"0 0 300 170\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"156\" x2=\"294\" y2=\"156\" class=\"floor\"/><line x1=\"262\" y1=\"156\" x2=\"262\" y2=\"22\" class=\"mach\"/><rect x=\"250\" y=\"12\" width=\"24\" height=\"12\" class=\"mach2\"/><circle cx=\"160\" cy=\"66\" r=\"9\" class=\"hd\"/><line x1=\"146\" y1=\"76\" x2=\"98\" y2=\"96\" class=\"lm\"/><line x1=\"98\" y1=\"96\" x2=\"122\" y2=\"124\" class=\"lm\"/><line x1=\"122\" y1=\"124\" x2=\"112\" y2=\"154\" class=\"lm\"/><line x1=\"146\" y1=\"76\" x2=\"150\" y2=\"100\" class=\"lm\"/><line x1=\"150\" y1=\"100\" x2=\"140\" y2=\"120\" class=\"lm\"/><line x1=\"262\" y1=\"20\" x2=\"140\" y2=\"120\" class=\"cord\"/></svg>",
+          "caption": "Final: cadera atrás, manos junto a los muslos (esquema)"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=dbTqitnZ-Yg",
+          "title": "Cómo usar bien el SkiErg"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=fCv9ZyHB8Qs",
+          "title": "Técnica de SkiErg"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=skierg%20tecnica",
+      "day": 1,
+      "pair": "1A",
+      "sets": 3,
+      "reps": "250 m",
+      "log": "distance",
+      "slot": "cardio",
+      "groups": [
+        "Cardio",
+        "Espalda",
+        "Brazos"
+      ],
+      "order": 0
+    },
+    {
+      "id": "lumbares",
+      "name": "Lumbares",
+      "equipment": [
+        "Banco romano (banco de hiperextensiones)"
+      ],
+      "muscles": "Zona lumbar, glúteos e isquiotibiales.",
+      "steps": [
+        "Ajusta el cojín para que apoye en la parte alta de los muslos y quede libre la cadera. Los talones van bajo los rodillos.",
+        "Cruza los brazos sobre el pecho (o detrás de la cabeza) y empieza con el cuerpo en línea recta.",
+        "Baja el tronco lento, doblando solo por la cadera, hasta sentir tensión en los isquios.",
+        "Sube apretando glúteos hasta quedar en línea recta con las piernas. No subas más de eso."
+      ],
+      "tips": [
+        "Mantén la espalda neutra, sin redondearla abajo ni arquearla arriba.",
+        "Sube y baja controlado, sin balanceo.",
+        "Si es muy fácil, sostén un disco contra el pecho. Pregunta antes al profe."
+      ],
+      "media": [
+        {
+          "src": "img/lumbares-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/lumbares-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=M2iwzaxu4mw",
+          "title": "Extensión lumbar en banco romano"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=uzveWBGBTWQ",
+          "title": "¿Hiperextensiones para lumbares?"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=hiperextension%20banco%20romano%20tecnica",
+      "day": 1,
+      "pair": "1B",
+      "sets": 3,
+      "reps": "10",
+      "log": "weight",
+      "slot": "core",
+      "groups": [
+        "Core",
+        "Espalda",
+        "Glúteos"
+      ],
+      "order": 1
+    },
+    {
+      "id": "pallof",
+      "name": "Press Pallof",
+      "equipment": [
+        "Polea (cable) con asa"
+      ],
+      "muscles": "Core, sobre todo abdominales oblicuos. Entrena a resistir la rotación.",
+      "steps": [
+        "Coloca la polea a la altura del pecho y ponte de lado a la máquina, a un brazo de distancia.",
+        "Sujeta el asa con las dos manos pegada al pecho, pies al ancho de caderas y rodillas algo flexionadas.",
+        "Empuja el asa hacia delante hasta estirar los brazos. El cable intentará girarte: no lo permitas.",
+        "Aguanta 1-2 segundos y vuelve al pecho. Termina las repeticiones y cambia de lado."
+      ],
+      "tips": [
+        "Hombros y cadera siempre mirando al frente.",
+        "Aprieta abdomen y glúteos durante todo el movimiento.",
+        "Usa poco peso. Aquí gana la técnica."
+      ],
+      "media": [
+        {
+          "src": "img/pallof-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/pallof-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=LWrUioYVcZ0",
+          "title": "Técnica del Press Pallof (tutorial)"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=h66babJLO74",
+          "title": "Cómo hacer el Pallof Press"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=press%20pallof%20tecnica",
+      "day": 1,
+      "pair": "1B",
+      "sets": 3,
+      "reps": "10 por lado",
+      "log": "weight",
+      "slot": "core",
+      "groups": [
+        "Core"
+      ],
+      "order": 2
+    },
+    {
+      "id": "sentadilla",
+      "name": "Sentadilla",
+      "equipment": [
+        "Barra con discos en rack, o mancuerna/kettlebell (goblet)",
+        "Sin carga si el profe lo indicó"
+      ],
+      "muscles": "Cuádriceps, glúteos, isquiotibiales y core.",
+      "steps": [
+        "Pies un poco más abiertos que los hombros, puntas ligeramente hacia fuera.",
+        "Respira, aprieta el abdomen y baja llevando la cadera hacia atrás y abajo, con las rodillas siguiendo la línea de los pies.",
+        "Baja hasta donde puedas sin perder la espalda recta (idealmente muslos paralelos al suelo).",
+        "Empuja el suelo con todo el pie y sube estirando cadera y rodillas a la vez."
+      ],
+      "tips": [
+        "Las rodillas no se meten hacia dentro.",
+        "Talones siempre apoyados en el suelo.",
+        "Mira al frente y mantén el pecho abierto.",
+        "Con 15 repeticiones, elige un peso con el que puedas hacerlas todas con buena técnica."
+      ],
+      "media": [
+        {
+          "src": "img/sentadilla-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/sentadilla-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=qsAkuNORgmk",
+          "title": "Cómo hacer sentadillas correctamente"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zWhrzLouoQ0",
+          "title": "Sentadilla con barra, técnica perfecta"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=sentadilla%20tecnica%20correcta",
+      "day": 1,
+      "pair": "1C",
+      "sets": 3,
+      "reps": "15",
+      "log": "weight",
+      "slot": "piernas",
+      "groups": [
+        "Piernas",
+        "Glúteos"
+      ],
+      "order": 3
+    },
+    {
+      "id": "prensa",
+      "name": "Prensa",
+      "equipment": [
+        "Prensa de piernas (inclinada 45° u horizontal)"
+      ],
+      "muscles": "Cuádriceps, glúteos e isquiotibiales.",
+      "steps": [
+        "Siéntate con la espalda y la cadera bien apoyadas en el respaldo.",
+        "Pon los pies en la plataforma al ancho de hombros, a media altura.",
+        "Quita los seguros y baja la plataforma doblando las rodillas hasta unos 90°, sin que la cadera se despegue.",
+        "Empuja con todo el pie hasta casi estirar las piernas, sin bloquear las rodillas."
+      ],
+      "tips": [
+        "La pirámide 12-10-8 significa que cada serie tiene menos repeticiones y puedes subir el peso.",
+        "Rodillas en línea con los pies.",
+        "Nunca bajes tanto que la zona lumbar se levante del asiento.",
+        "Al terminar, vuelve a poner los seguros."
+      ],
+      "media": [
+        {
+          "src": "img/prensa-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/prensa-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=ch85L6ladCo",
+          "title": "Cómo usar la prensa de pierna"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tVGdTAK8o4Y",
+          "title": "Prensa de piernas, técnica sin riesgos"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=prensa%20de%20piernas%20tecnica",
+      "day": 1,
+      "pair": "1D",
+      "sets": 3,
+      "reps": "12-10-8",
+      "log": "weight",
+      "slot": "piernas",
+      "groups": [
+        "Piernas",
+        "Glúteos"
+      ],
+      "order": 4
+    },
+    {
+      "id": "militar",
+      "name": "Press militar",
+      "equipment": [
+        "Barra, mancuernas o máquina de press de hombros"
+      ],
+      "muscles": "Deltoides (hombros), tríceps y core.",
+      "steps": [
+        "Sujeta la barra o las mancuernas a la altura de los hombros, con los codos algo por delante del cuerpo.",
+        "Aprieta glúteos y abdomen para que el tronco quede firme.",
+        "Empuja hacia arriba hasta estirar los brazos sobre la cabeza.",
+        "Baja controlado hasta la altura de los hombros."
+      ],
+      "tips": [
+        "No arquees la zona lumbar para ayudarte.",
+        "Lleva la cabeza ligeramente hacia atrás al pasar la barra y vuelve debajo de ella.",
+        "Si usas la máquina, ajusta el asiento para que las asas queden a la altura de los hombros."
+      ],
+      "media": [
+        {
+          "src": "img/militar-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/militar-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=WREUHExSxDc",
+          "title": "Press militar con barra de pie"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=TzncS793brI",
+          "title": "Press militar con mancuernas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wNFECkm8dic",
+          "title": "Press militar en máquina (Hammer)"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=press%20militar%20tecnica",
+      "day": 1,
+      "pair": "1E",
+      "sets": 3,
+      "reps": "10",
+      "log": "weight",
+      "slot": "hombros",
+      "groups": [
+        "Hombros",
+        "Brazos"
+      ],
+      "order": 5
+    },
+    {
+      "id": "vuelos-laterales",
+      "name": "Vuelos laterales",
+      "equipment": [
+        "Mancuernas livianas (o polea baja)"
+      ],
+      "muscles": "Deltoides lateral (parte de los hombros que da ancho).",
+      "steps": [
+        "De pie, una mancuerna en cada mano a los lados, codos ligeramente flexionados.",
+        "Sube los brazos hacia los lados hasta la altura de los hombros.",
+        "Para un instante arriba, con los codos un poco más altos que las manos.",
+        "Baja lento hasta la posición inicial."
+      ],
+      "tips": [
+        "Peso ligero. Si balanceas el cuerpo, es demasiado.",
+        "No encojas los hombros hacia las orejas.",
+        "No pases de la altura de los hombros."
+      ],
+      "media": [
+        {
+          "src": "img/vuelos-laterales-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/vuelos-laterales-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=aVa9ce3SlSA",
+          "title": "Elevaciones laterales, técnica correcta"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nFpd2IBJknI",
+          "title": "El error que destruye tus hombros en vuelos laterales"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=vuelos%20laterales%20mancuernas%20tecnica",
+      "day": 1,
+      "pair": "1E",
+      "sets": 3,
+      "reps": "10",
+      "log": "weight",
+      "slot": "hombros",
+      "groups": [
+        "Hombros"
+      ],
+      "order": 6
+    },
+    {
+      "id": "trineo",
+      "name": "Tracción y empuje de trineo",
+      "equipment": [
+        "Trineo (sled) con discos",
+        "Cuerda o arnés para la tracción"
+      ],
+      "muscles": "Piernas, glúteos, core, espalda (tracción) y pecho/hombros (empuje).",
+      "steps": [
+        "Empuje: pon las manos en los postes del trineo, inclina el cuerpo hacia delante con los brazos casi estirados.",
+        "Empuja con pasos cortos y potentes, manteniendo la espalda recta, hasta completar la distancia.",
+        "Tracción: ponte de cara al trineo, toma la cuerda y tira hacia ti mano sobre mano, con las piernas algo flexionadas.",
+        "O bien camina hacia atrás tirando de la cuerda o el arnés, según indique el profe."
+      ],
+      "tips": [
+        "Empieza con poco peso hasta aprender la postura.",
+        "No encorves la espalda. Empuja con las piernas.",
+        "Respira de forma constante.",
+        "Confirma con el profe la distancia: la planilla no la deja clara."
+      ],
+      "media": [
+        {
+          "src": "img/trineo-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/trineo-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=_prbhPS0WKg",
+          "title": "Empuje de trineo, paso a paso"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=VHW8Vf5lP8o",
+          "title": "Sled pull, técnicas para mover el trineo"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=sled%20push%20sled%20pull%20tecnica",
+      "day": 1,
+      "pair": "1F",
+      "sets": 4,
+      "reps": "1 tracción + 1 empuje",
+      "log": "weight",
+      "slot": "metabolico",
+      "groups": [
+        "Piernas",
+        "Cardio",
+        "Espalda"
+      ],
+      "note": "La planilla dice «1-1». Confirma la distancia con el profe.",
+      "order": 7
+    },
+    {
+      "id": "granjero",
+      "name": "Caminata de granjero",
+      "equipment": [
+        "Mancuernas pesadas, kettlebells o barras hexagonales"
+      ],
+      "muscles": "Agarre (antebrazos), trapecios, core y piernas.",
+      "steps": [
+        "Agacha con la espalda recta y toma una pesa en cada mano.",
+        "Levántate, hombros hacia atrás y abajo, pecho abierto.",
+        "Camina con pasos firmes y de tamaño normal por la distancia indicada.",
+        "Gira con calma, deja las pesas en el suelo doblando las rodillas."
+      ],
+      "tips": [
+        "Las pesas no deben balancearse ni golpear las piernas.",
+        "Mantén el tronco erguido y el abdomen firme.",
+        "Elige un peso exigente que puedas sostener todo el recorrido."
+      ],
+      "media": [
+        {
+          "src": "img/granjero-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/granjero-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=69hTPgHwA08",
+          "title": "Caminata de granjero, técnica paso a paso"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=y4A5srqb2xc",
+          "title": "¿Cómo hacer caminata de granjero?"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=caminata%20del%20granjero%20tecnica",
+      "day": 1,
+      "pair": "1F",
+      "sets": 4,
+      "reps": "4 recorridos",
+      "log": "weight",
+      "slot": "metabolico",
+      "groups": [
+        "Core",
+        "Brazos",
+        "Piernas"
+      ],
+      "note": "La planilla dice «4» sin unidad: probablemente recorridos.",
+      "order": 8
+    },
+    {
+      "id": "remo",
+      "name": "Remo (ergómetro)",
+      "equipment": [
+        "Máquina de remo (ergómetro Concept2 o similar)"
+      ],
+      "muscles": "Piernas, espalda, brazos y core. Trabajo de cuerpo entero.",
+      "steps": [
+        "Siéntate, pies atados a las plataformas y manos en el agarre. Brazos estirados, espalda recta, rodillas dobladas.",
+        "Empuja con las piernas primero.",
+        "Cuando las piernas están casi estiradas, inclina el tronco hacia atrás y tira del agarre hacia el abdomen.",
+        "Vuelve en orden inverso: brazos, tronco y por último las piernas."
+      ],
+      "tips": [
+        "Orden del golpe: piernas, tronco, brazos. Al volver: brazos, tronco, piernas.",
+        "No tires con la espalda redondeada.",
+        "Ajusta el damper en 4-6 para empezar.",
+        "Una remada fluida rinde más que una brusca."
+      ],
+      "media": [
+        {
+          "src": "img/remo-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/remo-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=omHXZMFv2BI",
+          "title": "Cómo remar en la máquina de remo"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=e1XLGSzSiWE",
+          "title": "Remoergómetro Concept2"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=remo%20ergometro%20concept2%20tecnica",
+      "day": 2,
+      "pair": "2A",
+      "sets": 3,
+      "reps": "250 m",
+      "log": "distance",
+      "slot": "cardio",
+      "groups": [
+        "Cardio",
+        "Espalda",
+        "Piernas"
+      ],
+      "order": 9
+    },
+    {
+      "id": "anillas",
+      "name": "Tracción en anillas",
+      "equipment": [
+        "Anillas de gimnasia o TRX colgadas de una estructura"
+      ],
+      "muscles": "Dorsales, romboides, trapecio medio, bíceps y core.",
+      "steps": [
+        "Ajusta las anillas a la altura de la cintura. Sujétalas y camina hacia delante hasta inclinarte hacia atrás.",
+        "Cuerpo recto de cabeza a talones, brazos estirados.",
+        "Tira de las anillas hasta llevar el pecho entre las manos, juntando los omóplatos.",
+        "Baja despacio hasta estirar los brazos."
+      ],
+      "tips": [
+        "Cuanto más horizontal el cuerpo, más difícil. Para facilitar, acércate a la vertical.",
+        "No dejes caer la cadera.",
+        "Los codos rozan las costillas, no se abren mucho."
+      ],
+      "media": [
+        {
+          "src": "img/anillas-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/anillas-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=pKCVFF1eEV8",
+          "title": "Remo invertido con anillas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=_-Ae7FkOik4",
+          "title": "Remo en anillas"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=remo%20invertido%20anillas%20tecnica",
+      "day": 2,
+      "pair": "2B",
+      "sets": 4,
+      "reps": "12",
+      "log": "weight",
+      "slot": "traccion",
+      "groups": [
+        "Espalda",
+        "Brazos"
+      ],
+      "order": 10
+    },
+    {
+      "id": "pecho-plano",
+      "name": "Pecho plano",
+      "equipment": [
+        "Banco plano con barra y discos (o mancuernas)"
+      ],
+      "muscles": "Pectoral, deltoides anterior y tríceps.",
+      "steps": [
+        "Túmbate con los ojos bajo la barra, pies apoyados, omóplatos juntos y glúteos en el banco.",
+        "Agarre algo más ancho que los hombros. Saca la barra del soporte con los brazos estirados.",
+        "Baja la barra controlada hasta rozar la parte media del pecho.",
+        "Empuja hacia arriba hasta estirar los brazos."
+      ],
+      "tips": [
+        "Pide un ayudante (spotter) si el peso es exigente.",
+        "Las muñecas quedan rectas, encima de los codos.",
+        "No rebotes la barra en el pecho."
+      ],
+      "media": [
+        {
+          "src": "img/pecho-plano-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/pecho-plano-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=uEtiwYaT3d0",
+          "title": "Cómo hacer press de banca (tutorial)"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=jlFl7WJ1TzI",
+          "title": "Press de banca correctamente en 5 pasos"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=W-qU8CF-WeU",
+          "title": "Press plano con mancuernas"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=press%20de%20banca%20plano%20tecnica",
+      "day": 2,
+      "pair": "2B",
+      "sets": 4,
+      "reps": "10",
+      "log": "weight",
+      "slot": "empuje",
+      "groups": [
+        "Pecho",
+        "Brazos"
+      ],
+      "order": 11
+    },
+    {
+      "id": "empuje-maquina",
+      "name": "Empuje en máquina",
+      "equipment": [
+        "Máquina de press de pecho (chest press)"
+      ],
+      "muscles": "Pectoral, hombros y tríceps.",
+      "steps": [
+        "Ajusta el asiento para que las asas queden a la altura del pecho.",
+        "Espalda pegada al respaldo y pies firmes en el suelo.",
+        "Empuja las asas hacia delante hasta estirar los brazos sin bloquear los codos.",
+        "Vuelve despacio hasta sentir el pecho estirado."
+      ],
+      "tips": [
+        "Hombros hacia atrás y abajo, sin encogerlos.",
+        "Pirámide 12-10-8: sube el peso en cada serie.",
+        "Si no ves la polea con el peso, pregunta al profe cuál es el pin correcto."
+      ],
+      "media": [
+        {
+          "src": "img/empuje-maquina-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/empuje-maquina-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=iBAUNsrwWdI",
+          "title": "Press de pecho en máquina, técnica paso a paso"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lw4uUkBl_HE",
+          "title": "Press de pecho sentado en máquina"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=press%20de%20pecho%20en%20maquina%20tecnica",
+      "day": 2,
+      "pair": "2C",
+      "sets": 3,
+      "reps": "12-10-8",
+      "log": "weight",
+      "slot": "empuje",
+      "groups": [
+        "Pecho",
+        "Hombros",
+        "Brazos"
+      ],
+      "order": 12
+    },
+    {
+      "id": "traccion-maquina",
+      "name": "Tracción en máquina",
+      "equipment": [
+        "Máquina de remo sentado con apoyo de pecho"
+      ],
+      "muscles": "Dorsales, romboides, trapecio y bíceps.",
+      "steps": [
+        "Ajusta el asiento y el apoyo del pecho para que las asas queden a la altura del abdomen.",
+        "Pecho apoyado, brazos estirados, hombros relajados.",
+        "Tira de las asas hacia ti, llevando los codos hacia atrás y juntando los omóplatos.",
+        "Aguanta un instante y vuelve lento."
+      ],
+      "tips": [
+        "Piensa en tirar con los codos, no con las manos.",
+        "No te despegues del respaldo ni te impulses con el tronco.",
+        "La máquina exacta puede variar (agarre neutro o prono). Sigue las indicaciones de la propia máquina."
+      ],
+      "media": [
+        {
+          "src": "img/traccion-maquina-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/traccion-maquina-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=A4D5A7i39K0",
+          "title": "Remo sentado en máquina, paso a paso"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rGeBwjJC8nU",
+          "title": "Cómo hacer remo horizontal sentado en máquina"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=remo%20sentado%20en%20maquina%20tecnica",
+      "day": 2,
+      "pair": "2C",
+      "sets": 3,
+      "reps": "12-10-8",
+      "log": "weight",
+      "slot": "traccion",
+      "groups": [
+        "Espalda",
+        "Brazos"
+      ],
+      "order": 13
+    },
+    {
+      "id": "wallballs",
+      "name": "Wall balls",
+      "equipment": [
+        "Balón medicinal (wall ball) y una pared con marca de altura"
+      ],
+      "muscles": "Piernas, glúteos, hombros y core.",
+      "steps": [
+        "Sostén el balón a la altura del pecho, frente a la pared y a unos 30 cm de ella.",
+        "Haz una sentadilla profunda con la espalda recta.",
+        "Sube explosivo y lanza el balón a la marca de la pared, por encima de la cabeza.",
+        "Atrapa el balón y baja directo a la siguiente sentadilla."
+      ],
+      "tips": [
+        "Usa la fuerza de las piernas para lanzar, no solo los brazos.",
+        "Mira la marca de la pared y atrapa el balón con los codos abajo.",
+        "La imagen muestra un lanzamiento de balón por encima de la cabeza. Es referencial."
+      ],
+      "media": [
+        {
+          "src": "img/wallballs-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/wallballs-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=PDraAEVsgXs",
+          "title": "Cómo hacer Wall Balls en CrossFit"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RxpEjaQ8AR0",
+          "title": "¿Cómo hacer el wall ball?"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=wall%20balls%20tecnica",
+      "day": 2,
+      "pair": "2D",
+      "sets": 4,
+      "reps": "8",
+      "log": "weight",
+      "slot": "metabolico",
+      "format": "emom",
+      "groups": [
+        "Piernas",
+        "Hombros",
+        "Cardio"
+      ],
+      "order": 14
+    },
+    {
+      "id": "swing",
+      "name": "Swing",
+      "equipment": [
+        "Kettlebell (pesa rusa)"
+      ],
+      "muscles": "Glúteos, isquiotibiales, espalda baja y hombros.",
+      "steps": [
+        "Pies al ancho de hombros, kettlebell un poco delante de ti. Flexiona la cadera y agárrala con las dos manos.",
+        "Llévala hacia atrás entre las piernas, con la espalda recta.",
+        "Estira la cadera de golpe: la fuerza viene de los glúteos y la kettlebell sube sola hasta el pecho.",
+        "Deja que caiga y vuelve a llevarla hacia atrás, bisagra de cadera otra vez."
+      ],
+      "tips": [
+        "El swing es una bisagra de cadera, no una sentadilla.",
+        "Los brazos solo guían. No levantes la pesa con los hombros.",
+        "La imagen es de una sola mano. En tu rutina suele hacerse con las dos."
+      ],
+      "media": [
+        {
+          "src": "img/swing-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/swing-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=njsTlHiI2BE",
+          "title": "Cómo hacer bien el swing de kettlebell"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0Ur1KvjzoEY",
+          "title": "Tutorial kettlebell swing paso a paso"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=swing%20kettlebell%20tecnica",
+      "day": 2,
+      "pair": "2D",
+      "sets": 4,
+      "reps": "12",
+      "log": "weight",
+      "slot": "metabolico",
+      "format": "emom",
+      "groups": [
+        "Glúteos",
+        "Piernas",
+        "Cardio"
+      ],
+      "order": 15
+    },
+    {
+      "id": "sdlhp",
+      "name": "SDLHP (Sumo Deadlift High Pull)",
+      "equipment": [
+        "Kettlebell o barra corta con discos"
+      ],
+      "muscles": "Glúteos, piernas, espalda alta, trapecios y hombros.",
+      "steps": [
+        "Pies más abiertos que los hombros, puntas hacia fuera. La kettlebell en el suelo entre los pies.",
+        "Baja con la espalda recta y agárrala con las dos manos.",
+        "Empuja el suelo, estira piernas y cadera.",
+        "Cuando la cadera esté estirada, tira hacia arriba hasta la barbilla con los codos altos y por fuera. Baja controlado."
+      ],
+      "tips": [
+        "Primero se estira la cadera, después tiran los brazos.",
+        "Mantén la pesa pegada al cuerpo.",
+        "SDLHP son las siglas en inglés de Sumo Deadlift High Pull."
+      ],
+      "media": [
+        {
+          "src": "img/sdlhp-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/sdlhp-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=sgZ1pY32Vyc",
+          "title": "Kettlebell Sumo Deadlift High Pull (tutorial)"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=A02TcrnG3Jc",
+          "title": "Kettlebell Sumo Deadlift High-Pull"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=sumo%20deadlift%20high%20pull%20kettlebell",
+      "day": 2,
+      "pair": "2D",
+      "sets": 4,
+      "reps": "8-10",
+      "log": "weight",
+      "slot": "metabolico",
+      "format": "emom",
+      "groups": [
+        "Piernas",
+        "Espalda",
+        "Hombros",
+        "Cardio"
+      ],
+      "note": "La planilla dice «8/10».",
+      "order": 16
+    },
+    {
+      "id": "plancha",
+      "name": "Plancha",
+      "equipment": [
+        "Colchoneta"
+      ],
+      "muscles": "Abdominales (recto abdominal y transverso), hombros, glúteos y espalda baja.",
+      "steps": [
+        "Apoya los antebrazos en el suelo, con los codos bajo los hombros.",
+        "Estira las piernas, apoyado en la punta de los pies.",
+        "Cuerpo en línea recta de cabeza a talones. Aprieta abdomen y glúteos.",
+        "Mantén la posición respirando con calma."
+      ],
+      "tips": [
+        "No dejes caer la cadera ni la subas demasiado.",
+        "Cuello neutro: mira al suelo entre las manos.",
+        "Si no puedes 40″, apoya las rodillas."
+      ],
+      "media": [
+        {
+          "src": "img/plancha-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/plancha-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=xeVZvvzHaw0",
+          "title": "Plancha: cómo hacerla correctamente"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=d0atctiI7Vw",
+          "title": "La plancha perfecta por primera vez"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=plancha%20abdominal%20tecnica",
+      "day": 3,
+      "pair": "3A",
+      "sets": 3,
+      "reps": "40″ / 20″ descanso",
+      "log": "time",
+      "slot": "core",
+      "format": "tabata",
+      "groups": [
+        "Core"
+      ],
+      "order": 17
+    },
+    {
+      "id": "plancha-lateral",
+      "name": "Plancha lateral",
+      "equipment": [
+        "Colchoneta"
+      ],
+      "muscles": "Oblicuos, glúteo medio y estabilizadores del hombro.",
+      "steps": [
+        "Túmbate de lado, con el antebrazo en el suelo y el codo bajo el hombro.",
+        "Sube la cadera hasta que el cuerpo forme una línea recta de cabeza a pies.",
+        "Apoya el pie de arriba delante del otro, o pon los pies uno sobre otro.",
+        "Mantén y cambia de lado."
+      ],
+      "tips": [
+        "La cadera no cae hacia el suelo.",
+        "Mantén el cuello alineado con la columna.",
+        "Si es difícil, apoya la rodilla de abajo."
+      ],
+      "media": [
+        {
+          "svg": "<svg class=\"fig\" viewBox=\"0 0 300 170\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"156\" x2=\"294\" y2=\"156\" class=\"floor\"/><circle cx=\"58\" cy=\"82\" r=\"9\" class=\"hd\"/><line x1=\"66\" y1=\"92\" x2=\"150\" y2=\"118\" class=\"lm\"/><line x1=\"150\" y1=\"118\" x2=\"244\" y2=\"150\" class=\"lm\"/><line x1=\"70\" y1=\"95\" x2=\"70\" y2=\"150\" class=\"lm\"/><line x1=\"70\" y1=\"150\" x2=\"92\" y2=\"150\" class=\"lm\"/><line x1=\"70\" y1=\"95\" x2=\"76\" y2=\"52\" class=\"lm\"/></svg>",
+          "caption": "Correcto: línea recta de hombro a pies (esquema)"
+        },
+        {
+          "svg": "<svg class=\"fig\" viewBox=\"0 0 300 170\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"156\" x2=\"294\" y2=\"156\" class=\"floor\"/><circle cx=\"58\" cy=\"82\" r=\"9\" class=\"hd\"/><line x1=\"66\" y1=\"92\" x2=\"150\" y2=\"144\" class=\"lm\"/><line x1=\"150\" y1=\"144\" x2=\"244\" y2=\"150\" class=\"lm\"/><line x1=\"70\" y1=\"95\" x2=\"70\" y2=\"150\" class=\"lm\"/><line x1=\"70\" y1=\"150\" x2=\"92\" y2=\"150\" class=\"lm\"/><line x1=\"70\" y1=\"95\" x2=\"76\" y2=\"52\" class=\"lm\"/></svg>",
+          "caption": "Error: la cadera cae hacia el suelo (esquema)"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=fuxUqaUYSXo",
+          "title": "3 ejercicios de planchas para oblicuos"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=6YxDPRGwPPw",
+          "title": "Rutina de plancha lateral, con versión de rodilla"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=plancha%20lateral%20tecnica",
+      "day": 3,
+      "pair": "3A",
+      "sets": 3,
+      "reps": "40″ por lado",
+      "log": "time",
+      "slot": "core",
+      "format": "tabata",
+      "groups": [
+        "Core"
+      ],
+      "order": 18
+    },
+    {
+      "id": "hollow",
+      "name": "Hollow",
+      "equipment": [
+        "Colchoneta"
+      ],
+      "muscles": "Abdominales, flexores de cadera y core profundo.",
+      "steps": [
+        "Túmbate boca arriba con los brazos estirados sobre la cabeza.",
+        "Aprieta el abdomen para pegar la zona lumbar al suelo.",
+        "Levanta a la vez hombros, brazos y piernas estiradas, formando una «banana».",
+        "Mantén sin perder el contacto de la zona lumbar con el suelo."
+      ],
+      "tips": [
+        "Si la lumbar se despega, sube las piernas o dobla las rodillas.",
+        "Cuanto más bajas piernas y brazos, más difícil.",
+        "Respira de forma corta y constante."
+      ],
+      "media": [
+        {
+          "svg": "<svg class=\"fig\" viewBox=\"0 0 300 170\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"156\" x2=\"294\" y2=\"156\" class=\"floor\"/><circle cx=\"34\" cy=\"146\" r=\"9\" class=\"hd\"/><line x1=\"46\" y1=\"150\" x2=\"150\" y2=\"150\" class=\"lm\"/><line x1=\"150\" y1=\"150\" x2=\"264\" y2=\"150\" class=\"lm\"/><line x1=\"46\" y1=\"150\" x2=\"10\" y2=\"150\" class=\"lm\"/></svg>",
+          "caption": "Inicio: tumbado, brazos arriba (esquema)"
+        },
+        {
+          "svg": "<svg class=\"fig\" viewBox=\"0 0 300 170\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"6\" y1=\"156\" x2=\"294\" y2=\"156\" class=\"floor\"/><circle cx=\"52\" cy=\"118\" r=\"9\" class=\"hd\"/><path d=\"M62 124 Q110 150 152 148\" class=\"lm\" fill=\"none\"/><line x1=\"152\" y1=\"148\" x2=\"268\" y2=\"116\" class=\"lm\"/><line x1=\"62\" y1=\"124\" x2=\"22\" y2=\"102\" class=\"lm\"/></svg>",
+          "caption": "Hollow: hombros y piernas despegados, lumbar pegada al suelo (esquema)"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=Np9dowU1C4o",
+          "title": "Abdominales: cómo hacer un hollow body"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=E58napCEGEw",
+          "title": "¿Cómo hacer bien el hollow body?"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=hollow%20body%20hold%20tecnica",
+      "day": 3,
+      "pair": "3A",
+      "sets": 3,
+      "reps": "40″ / 20″ descanso",
+      "log": "time",
+      "slot": "core",
+      "format": "tabata",
+      "groups": [
+        "Core"
+      ],
+      "order": 19
+    },
+    {
+      "id": "superman",
+      "name": "Superman",
+      "equipment": [
+        "Colchoneta"
+      ],
+      "muscles": "Zona lumbar, glúteos y espalda alta.",
+      "steps": [
+        "Túmbate boca abajo, brazos estirados hacia delante y piernas juntas.",
+        "Sube a la vez brazos, pecho y piernas unos centímetros del suelo.",
+        "Mantén 1-2 segundos arriba apretando glúteos y espalda.",
+        "Baja controlado. Repite durante los 40 segundos."
+      ],
+      "tips": [
+        "Mira al suelo para no forzar el cuello.",
+        "Sube poco: no es necesario arquear mucho.",
+        "Muévete sin tirones."
+      ],
+      "media": [
+        {
+          "src": "img/superman-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/superman-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=jzlrLlYwRxE",
+          "title": "Cómo hacer el Superman"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Z3OZRqVXXwU",
+          "title": "Supermanes acostado, técnica correcta"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=superman%20ejercicio%20lumbares",
+      "day": 3,
+      "pair": "3A",
+      "sets": 3,
+      "reps": "40″ / 20″ descanso",
+      "log": "time",
+      "slot": "core",
+      "format": "tabata",
+      "groups": [
+        "Core",
+        "Espalda",
+        "Glúteos"
+      ],
+      "order": 20
+    },
+    {
+      "id": "dorsales",
+      "name": "Dorsales (jalón al pecho)",
+      "equipment": [
+        "Máquina de jalón al pecho (polea alta)"
+      ],
+      "muscles": "Dorsal ancho, redondo mayor, bíceps y trapecio inferior.",
+      "steps": [
+        "Ajusta el cojín de muslos para que te sujete sin dejarte flotar.",
+        "Toma la barra con agarre un poco más ancho que los hombros.",
+        "Inclina el tronco levemente hacia atrás y tira de la barra hasta la parte alta del pecho, llevando los codos hacia abajo.",
+        "Sube lento hasta estirar los brazos."
+      ],
+      "tips": [
+        "Tira con los codos y saca el pecho hacia la barra.",
+        "No te balancees con el tronco.",
+        "Evita tirar de la barra por detrás de la nuca."
+      ],
+      "media": [
+        {
+          "src": "img/dorsales-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/dorsales-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=EO9AmI-bu_0",
+          "title": "Cómo hacer jalón al pecho (sin errores)"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3eYSv1nsiIU",
+          "title": "Jalón al pecho en máquina, paso a paso"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=jalon%20al%20pecho%20tecnica",
+      "day": 3,
+      "pair": "3B",
+      "sets": 3,
+      "reps": "12-10-8",
+      "log": "weight",
+      "slot": "traccion",
+      "groups": [
+        "Espalda",
+        "Brazos"
+      ],
+      "order": 21
+    },
+    {
+      "id": "cruce-polea",
+      "name": "Cruce de polea",
+      "equipment": [
+        "Poleas altas de la máquina de cruce de poleas (cable crossover)"
+      ],
+      "muscles": "Pectoral (sobre todo la parte interna), deltoides anterior.",
+      "steps": [
+        "Pon las poleas arriba y toma un asa en cada mano. Da un paso al frente con el cuerpo ligeramente inclinado.",
+        "Brazos abiertos a los lados, codos suavemente flexionados.",
+        "Junta las manos delante del pecho en un arco, como abrazando un árbol.",
+        "Vuelve abriendo lento hasta sentir el estiramiento del pecho."
+      ],
+      "tips": [
+        "Mantén los codos con la misma flexión todo el recorrido.",
+        "Peso moderado. No uses los brazos para tirar.",
+        "Hombros abajo y atrás."
+      ],
+      "media": [
+        {
+          "src": "img/cruce-polea-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/cruce-polea-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=XnaMi2Gb_9Q",
+          "title": "Cruces en polea con cable (HSN)"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nOswSMok7ww",
+          "title": "Cruces en polea alta para pecho"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=cruce%20de%20poleas%20pecho%20tecnica",
+      "day": 3,
+      "pair": "3C",
+      "sets": 3,
+      "reps": "10",
+      "log": "weight",
+      "slot": "empuje",
+      "groups": [
+        "Pecho"
+      ],
+      "order": 22
+    },
+    {
+      "id": "vuelos-posteriores",
+      "name": "Vuelos posteriores",
+      "equipment": [
+        "Máquina «Peck Deck» usada al revés (o pec deck invertido)",
+        "También se hace con mancuernas inclinado"
+      ],
+      "muscles": "Deltoides posterior, romboides y trapecio medio.",
+      "steps": [
+        "Siéntate de frente al respaldo, con el pecho apoyado.",
+        "Ajusta el asiento para que las asas queden a la altura de los hombros.",
+        "Toma las asas y abre los brazos hacia atrás, con codos ligeramente flexionados.",
+        "Junta los omóplatos un instante y vuelve lento."
+      ],
+      "tips": [
+        "Peso ligero. Es un músculo pequeño.",
+        "No encojas los hombros hacia las orejas.",
+        "Si la máquina es la misma que la del pecho, gira el asiento o cambia la posición del brazo."
+      ],
+      "media": [
+        {
+          "src": "img/vuelos-posteriores-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/vuelos-posteriores-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=01kUuefI4Qo",
+          "title": "Vuelos posteriores en máquina"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zinOMbxnoac",
+          "title": "Deltoides posterior en máquina"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=vuelos%20posteriores%20maquina%20tecnica",
+      "day": 3,
+      "pair": "3C",
+      "sets": 3,
+      "reps": "10",
+      "log": "weight",
+      "slot": "hombros",
+      "groups": [
+        "Hombros",
+        "Espalda"
+      ],
+      "order": 23
+    },
+    {
+      "id": "cuadriceps",
+      "name": "Sillón de cuádriceps",
+      "equipment": [
+        "Máquina de extensión de piernas (sillón de cuádriceps)"
+      ],
+      "muscles": "Cuádriceps.",
+      "steps": [
+        "Ajusta el respaldo para que las rodillas queden alineadas con el eje de la máquina y el rodillo sobre los tobillos.",
+        "Sujeta las asas laterales para estabilizarte.",
+        "Estira las piernas hasta casi extenderlas del todo.",
+        "Baja despacio sin dejar caer las pesas."
+      ],
+      "tips": [
+        "No bloquees las rodillas arriba.",
+        "Sube y baja con control.",
+        "Cuidado con la carga si tienes molestias en rodillas. Avisa al profe."
+      ],
+      "media": [
+        {
+          "src": "img/cuadriceps-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/cuadriceps-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=r7ZMTzfiICA",
+          "title": "Cómo hacer extensiones de piernas en máquina"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rf5Nxw0vaOc",
+          "title": "Extensión de pierna en máquina, paso a paso"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=extension%20de%20piernas%20maquina%20cuadriceps",
+      "day": 3,
+      "pair": "3D",
+      "sets": 3,
+      "reps": "12",
+      "log": "weight",
+      "slot": "piernas",
+      "groups": [
+        "Piernas"
+      ],
+      "order": 24
+    },
+    {
+      "id": "isquios",
+      "name": "Camilla de isquios",
+      "equipment": [
+        "Máquina de curl femoral tumbado (camilla)"
+      ],
+      "muscles": "Isquiotibiales (parte trasera del muslo) y gemelos.",
+      "steps": [
+        "Túmbate boca abajo con el rodillo sobre la parte baja de las pantorrillas, rodillas justo en el borde del banco.",
+        "Sujeta las asas y mantén la cadera pegada al banco.",
+        "Dobla las rodillas llevando los talones hacia los glúteos.",
+        "Baja lento hasta estirar las piernas."
+      ],
+      "tips": [
+        "No levantes la cadera para ayudarte.",
+        "Tira con los isquios, no con la espalda baja.",
+        "Movimiento fluido, sin tirones."
+      ],
+      "media": [
+        {
+          "src": "img/isquios-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/isquios-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=9xbBr5Ytl8c",
+          "title": "Cómo hacer curl femoral tumbado en máquina"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=1zjd846youY",
+          "title": "Curl femoral acostado (técnica y puntos clave)"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=curl%20femoral%20tumbado%20maquina",
+      "day": 3,
+      "pair": "3D",
+      "sets": 3,
+      "reps": "12",
+      "log": "weight",
+      "slot": "piernas",
+      "groups": [
+        "Piernas"
+      ],
+      "order": 25
+    },
+    {
+      "id": "aductores",
+      "name": "Aductores / Glúteo medio",
+      "equipment": [
+        "Máquina de aductores y abductores (se cambian las palancas de posición)"
+      ],
+      "muscles": "Aductores (cara interna del muslo) y glúteo medio (cara externa de la cadera).",
+      "steps": [
+        "Aductores: siéntate, coloca las almohadillas por dentro de las rodillas y junta las piernas contra la resistencia.",
+        "Vuelve abriendo con control.",
+        "Glúteo medio (abductores): coloca las almohadillas por fuera de las rodillas y abre las piernas empujando hacia fuera.",
+        "Vuelve cerrando con control. Reparte 10 + 10 según indique el profe."
+      ],
+      "tips": [
+        "Mantén la espalda apoyada y el tronco quieto.",
+        "Controla el movimiento de vuelta. No dejes caer las pesas.",
+        "En muchas máquinas se cambia de ejercicio moviendo la palanca junto al asiento."
+      ],
+      "media": [
+        {
+          "src": "img/aductores-1.jpg",
+          "caption": "Aductores (piernas se juntan)"
+        },
+        {
+          "src": "img/aductores-2.jpg",
+          "caption": "Abductores / glúteo medio (piernas se abren)"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=_ARUxqrII3Y",
+          "title": "Cómo usar la máquina: aductor y abductor"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=IlLLJZHgfOs",
+          "title": "Cómo usar la máquina de abductores"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=maquina%20aductores%20abductores%20como%20usar",
+      "day": 3,
+      "pair": "3D",
+      "sets": 3,
+      "reps": "10 + 10",
+      "log": "weight",
+      "slot": "piernas",
+      "groups": [
+        "Piernas",
+        "Glúteos"
+      ],
+      "note": "La planilla dice «10-10»: 10 aductores + 10 abductores.",
+      "order": 26
+    },
+    {
+      "id": "biceps",
+      "name": "Bíceps en polea",
+      "equipment": [
+        "Polea baja con barra recta o cuerda"
+      ],
+      "muscles": "Bíceps y antebrazos.",
+      "steps": [
+        "De pie frente a la polea baja, toma la barra con las palmas hacia arriba.",
+        "Codos pegados al cuerpo y muñecas rectas.",
+        "Sube la barra doblando solo los codos hasta el pecho.",
+        "Baja lento hasta estirar casi del todo."
+      ],
+      "tips": [
+        "No balancees el tronco.",
+        "Los codos no se adelantan.",
+        "Mantén tensión en el bíceps todo el recorrido."
+      ],
+      "media": [
+        {
+          "src": "img/biceps-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/biceps-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=7Jc4jHxax60",
+          "title": "Curl de bíceps en polea (HSN)"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nFiYxgcQiPQ",
+          "title": "Cómo hacer curl de bíceps en polea con barra recta"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=curl%20de%20biceps%20polea%20tecnica",
+      "day": 3,
+      "pair": "3E",
+      "sets": 3,
+      "reps": "10",
+      "log": "weight",
+      "slot": "brazos",
+      "groups": [
+        "Brazos"
+      ],
+      "order": 27
+    },
+    {
+      "id": "triceps",
+      "name": "Tríceps en polea",
+      "equipment": [
+        "Polea alta con cuerda o barra"
+      ],
+      "muscles": "Tríceps.",
+      "steps": [
+        "De pie frente a la polea alta, toma la cuerda con las dos manos.",
+        "Codos pegados a las costillas y antebrazos a 90°.",
+        "Estira los codos empujando hacia abajo y separa las manos al final.",
+        "Sube lento hasta los 90°, sin mover los codos."
+      ],
+      "tips": [
+        "Solo se mueven los antebrazos. Los codos quedan fijos.",
+        "No te inclines sobre la cuerda para ayudarte.",
+        "Peso moderado, repeticiones limpias."
+      ],
+      "media": [
+        {
+          "src": "img/triceps-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/triceps-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=Ln80KCqM5YA",
+          "title": "Extensión de tríceps con cuerda"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dRkTreltpnc",
+          "title": "Extensión de tríceps en polea (1 minuto)"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=triceps%20polea%20cuerda%20tecnica",
+      "day": 3,
+      "pair": "3E",
+      "sets": 3,
+      "reps": "10",
+      "log": "weight",
+      "slot": "brazos",
+      "groups": [
+        "Brazos"
+      ],
+      "order": 28
+    },
+    {
+      "id": "remo-ski",
+      "name": "Remo / SkiErg",
+      "equipment": [
+        "Máquina de remo o SkiErg (a elegir)"
+      ],
+      "muscles": "Cuerpo entero y resistencia cardiovascular.",
+      "steps": [
+        "Cierra la sesión con 1000 m en la máquina de remo o en el SkiErg.",
+        "Ritmo constante y cómodo, que puedas sostener hasta el final.",
+        "Si tienes dudas sobre la técnica, repasa los ejercicios de los días 1 y 2."
+      ],
+      "tips": [
+        "Mira la pantalla: los metros se cuentan solos.",
+        "No arranques demasiado rápido. Termina con fuerza."
+      ],
+      "media": [
+        {
+          "src": "img/remo-ski-1.jpg",
+          "caption": "Posición inicial"
+        },
+        {
+          "src": "img/remo-ski-2.jpg",
+          "caption": "Posición final"
+        }
+      ],
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=omHXZMFv2BI",
+          "title": "Cómo remar en la máquina de remo"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=dbTqitnZ-Yg",
+          "title": "Cómo usar bien el SkiErg"
+        }
+      ],
+      "moreVideos": "https://www.youtube.com/results?search_query=remo%20ergometro%20skierg%20tecnica",
+      "day": 3,
+      "pair": "3F",
+      "sets": 1,
+      "reps": "1000 m",
+      "log": "distance",
+      "slot": "cardio",
+      "groups": [
+        "Cardio"
+      ],
+      "order": 29
+    }
+  ]
+}

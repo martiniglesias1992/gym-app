@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Mi Rutina</title>
+<meta name="description" content="Rutina de gimnasio y registro de pesos y repeticiones.">
+<meta name="theme-color" content="#F2F5F4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1514" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Rutina">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><div class="wrap"><h1 id="title">Entrenar</h1><div id="topaction"></div></div></header>
+
+<main id="main" class="wrap"><p class="muted">Cargando…</p></main>
+
+<div id="rest" class="resttimer" hidden></div>
+
+<nav class="tabbar" aria-label="Secciones">
+  <button data-act="tab" data-tab="today">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6M6 6v12M18 6v12M21 9v6M6 12h12"/></svg>
+    <span>Entrenar</span>
+  </button>
+  <button data-act="tab" data-tab="library">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>
+    <span>Ejercicios</span>
+  </button>
+  <button data-act="tab" data-tab="history">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+    <span>Historial</span>
+  </button>
+</nav>
+
+<div id="sheet" class="sheet" hidden></div>
+<div id="toast" class="toast" role="status" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
